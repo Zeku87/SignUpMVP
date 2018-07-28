@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sign Up</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+
+    <string name="sign_up_success">Signed up successfully</string>
+
+    <string name="email_pattern_error">That email address is malformed!</string>
+    <string name="empty_error">You left the email or password blank</string>
+    <string name="pass_length_error">Password must have 7 characters at least</string>
+
+    <string name="email_test">ana@mail.com</string>
+    <string name="password_test">1a2b3c</string>
+</resources>
