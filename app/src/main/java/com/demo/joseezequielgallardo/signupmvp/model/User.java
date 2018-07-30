@@ -5,6 +5,8 @@ import android.util.Patterns;
 
 public class User implements IUser {
 
+    public static final int MIN_LENGTH = 7;
+
     private String email;
     private String password;
 
@@ -46,6 +48,6 @@ public class User implements IUser {
 
     @Override
     public boolean isPasswordLengthLessThanSevenChars(){
-        return getPassword().length() < 7;
+        return getPassword().length() < MIN_LENGTH;
     }
 }
